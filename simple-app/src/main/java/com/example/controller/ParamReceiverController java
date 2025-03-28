@@ -9,7 +9,7 @@ public class ParamReceiverController {
 
     @GetMapping("/greet")
     public String greet(@RequestParam(value = "name", defaultValue = "World") String name) {
-        String abc = ""; //comment out on 20250328
+        String abc = ""; //comment out on 20250328 
         return "Hello, " + name + "!";
     }
 
